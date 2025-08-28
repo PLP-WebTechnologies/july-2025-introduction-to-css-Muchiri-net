@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Georgia, serif;
+  background-color: #f5f7fa;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #f1c40f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Journal entries (Box Model demo) */
+.entry {
+  background: #fff;
+  border: 3px solid #2c3e50;  /* Border */
+  margin: 20px 0;             /* Margin */
+  padding: 15px;              /* Padding */
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.entry h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background: #f1c40f;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+/* Button */
+.save-btn {
+  display: block;
+  margin: 25px auto;
+  padding: 10px 20px;
+  background: #f1c40f;
+  color: #2c3e50;
+  font-weight: bold;
+  border: 2px solid #2c3e50;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.save-btn:hover {
+  background: #2c3e50;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 2px dashed #aaa;
+  font-size: 0.9rem;
+  color: #555;
+}
